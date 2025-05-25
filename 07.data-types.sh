@@ -1,8 +1,11 @@
 #!/bin/bash
 
-NUMBER=100
-NUMBER=200
+echo Enter first Number = (read N1)
+echo Enter Second Number =(read N2)
+
 
 TIMESTAMP=$(date)
 
 echo "Script executed at : $TIMESTAMP"
+
+echo "Sum of first and second number is : $N1+$N2"
