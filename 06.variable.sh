@@ -3,15 +3,15 @@
 
 echo "What is your Name ::"
 
-read NAME
+read -s NAME
 
 echo "What is your age ::"
 
-read AGE
+read -s AGE
 
 echo "Where are you living?"
 
-read LIVING
+read -s LIVING
 
 echo "your name is :: $NAME"
 
