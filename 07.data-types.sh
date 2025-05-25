@@ -12,4 +12,4 @@ echo "Enter Second Number :"
 
 read N2
 
-echo "Sum of first and second number is : $N1+$N2"
+echo "Sum of first and second number is : $(($N1+$N2))"
