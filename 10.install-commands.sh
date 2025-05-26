@@ -17,6 +17,7 @@ then
 fi
 
 if [ $USERID -ne 0 ]
-    then "changing to root user"
+    then 
+    echo "changing to root user"
     sudo su -
 fi
