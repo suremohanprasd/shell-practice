@@ -17,6 +17,7 @@ then
 else
         echo "changing to root user"
         sudo su -
+        exit
 fi
 
 dnf install mysql -y
