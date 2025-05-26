@@ -6,6 +6,5 @@ if [ $USERID -ne 0 ]
 then
     echo "ERROR:: Please run the script with root access"
 else
-    echo "Changing to root user"
-sudo su -
+    echo "You are running with root access"
 fi
