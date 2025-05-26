@@ -18,3 +18,13 @@ else
         echo "changing to root user"
         sudo su -
 fi
+
+dnf install mysql -y
+
+if [ $? -eq 0 ]
+then
+    echo "Installing MySQL is Succcess"
+else
+    echo "Installing MySQL is Failed"
+    exit 1
+fi
