@@ -15,8 +15,6 @@ then
     echo "You are running with root access"
     exit 1
 else
-    if [ $USERID -ne 0 ]
-    then 
         echo "changing to root user"
         sudo su -
 fi
