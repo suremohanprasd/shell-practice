@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo -e "\e[32m Iam Mohan Prasad"
+echo -e "\e[33m Mohan Prasad"
 
 echo "Hello No colors"
