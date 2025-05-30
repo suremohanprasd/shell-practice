@@ -13,4 +13,4 @@ echo -e $R "Hi, Iam Mohan Prasad" $N
 
 echo -e $G "I am Learning Devops with AWS" $N
 
-echo -e $N "I am living in Hyderabad"
+echo -e $Y "I am living in Hyderabad" $N
