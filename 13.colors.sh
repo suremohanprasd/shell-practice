@@ -4,13 +4,13 @@
 
 # echo "Hello No colors"
 
-R="\e[31m"
-G="\e[32m"
-Y="\e[33m"
+R="-e \e[31m"
+G="-e \e[32m"
+Y="-e \e[33m"
 N="\e[0m"
 
-echo -e $R "Hi, Iam Mohan Prasad" $N
+echo $R "Hi, Iam Mohan Prasad" $N
 
-echo -e $G "I am Learning Devops with AWS" $N
+echo $G "I am Learning Devops with AWS" $N
 
-echo -e $Y "I am living in Hyderabad" $N
+echo $Y "I am living in Hyderabad" $N
